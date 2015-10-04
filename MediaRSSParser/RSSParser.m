@@ -26,8 +26,7 @@
 #import "RSSParser.h"
 #import "RSSParser_Protected.h"
 
-#import "AFURLResponseSerialization.h"
-#import "AFHTTPSessionManager.h"
+#import "AFNetworking.h"
 
 @interface RSSParser()
 @property (nonatomic, strong, readwrite) NSDateFormatter *dateFormatter;
