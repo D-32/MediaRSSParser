@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.source_files = 'MediaRSSParser/*.{h,m}'
 
   s.dependency 'AFNetworking', '~> 2.6'
+  s.dependency 'AFNetworking/NSURLSession', '~> 2.6'
 end
