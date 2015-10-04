@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/JRG-Developer/MediaRSSParser.git", :tag => "#{s.version}" }
   s.source_files = 'MediaRSSParser/*.{h,m}'
 
-  s.dependency 'AFNetworking', '~> 2.6'
-  s.dependency 'AFNetworking/NSURLSession', '~> 2.6'
+  s.dependency 'AFNetworking', '~> 2.6' :git => 'https://github.com/AFNetworking/AFNetworking.git'
+  s.dependency 'AFNetworking/NSURLSession', '~> 2.6', :git => 'https://github.com/AFNetworking/AFNetworking.git'
 end
